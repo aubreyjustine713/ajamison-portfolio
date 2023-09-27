@@ -1,0 +1,9 @@
+.Navigation button {
+  margin-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
