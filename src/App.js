@@ -19,8 +19,17 @@ export default function App() {
           <About />
           <Contact />
         </main>
-        <footer>Footer</footer>
       </div>
+      <footer>
+        This website is coded with 🤍 by Aubrey Jamison & is{" "}
+        <a
+          href="https://github.com/aubreyjustine713/ajamison-portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
