@@ -7,8 +7,8 @@ import About from "./About.js";
 export default function App() {
   return (
     <div className="App">
+      <Navigation />
       <div className="Container">
-        <Navigation />
         <header className="App-header">
           <p>Hello, my name is</p>
           <h1>Aubrey</h1>

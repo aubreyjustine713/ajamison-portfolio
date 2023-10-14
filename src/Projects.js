@@ -3,21 +3,22 @@ import reactDictionary from "./react-dictionary-app.png";
 import htmlCssWeather from "./html-css-weather-app.png";
 import responsiveTravel from "./responsive-travel-app.png";
 import reactWeather from "./react-weather-app.png";
+import "./Projects.css";
 
 export default function Projects() {
   return (
     <div className="Projects">
-      <div className="row mb-5">
-        <div className="col d-none d-md-block">
+      <div className="Project mb-5">
+        <div className="project-image mb-4">
           <img
             src={reactDictionary}
             className="img-fluid"
             alt="Dictionary app built using React & Bootstrap."
           ></img>
         </div>
-        <div className="col project-description">
-          <h3 className="mb-5">React Dictionary App</h3>
-          <p className="mb-5 text-muted">
+        <div className="project-description">
+          <h3 className="mb-3">React Dictionary App</h3>
+          <p className="text-muted">
             The goal of this project was to create a functioning dictionary app,
             complete with definitions, parts of speech, audio (where available),
             and images. This project was built using React and Bootstrap with
@@ -34,17 +35,17 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="row mb-5">
-        <div className="col d-none d-md-block">
+      <div className="Project mb-5">
+        <div className="project-image mb-4">
           <img
             src={htmlCssWeather}
             className="img-fluid"
             alt="Weather app built using HTML, CSS, & Bootstrap."
           ></img>
         </div>
-        <div className="col project-description">
-          <h3 className="mb-5">HTML & CSS Weather App</h3>
-          <p className="mb-5 text-muted">
+        <div className="project-description">
+          <h3 className="mb-3">HTML & CSS Weather App</h3>
+          <p className="text-muted">
             The goal of this project was to create a functioning weather app
             using HTML, CSS, Bootstrap, and API calls. Complete with changing
             icons and a forecast, this weather app tells you all you need to
@@ -61,17 +62,17 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="row mb-5">
-        <div className="col d-none d-md-block">
+      <div className="Project mb-5">
+        <div className="project-image mb-4">
           <img
             src={responsiveTravel}
             className="img-fluid"
             alt="Responsive travel website for Nova Scotia built using HTML and CSS"
           ></img>
         </div>
-        <div className="col project-description">
-          <h3 className="mb-5">Responsive Travel App</h3>
-          <p className="mb-5 text-muted">
+        <div className="project-description">
+          <h3 className="mb-3">Responsive Travel App</h3>
+          <p className="text-muted">
             The goal of this project was to create a relatively simple
             responsive website promoting your favourite travel location using
             HTML and CSS along with embedded iFrames and grids. I included
@@ -89,17 +90,17 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="row mb-5">
-        <div className="col d-none d-md-block">
+      <div className="Project mb-5">
+        <div className="project-image mb-4">
           <img
             src={reactWeather}
             className="img-fluid"
             alt="Weather app built using React"
           ></img>
         </div>
-        <div className="col project-description">
-          <h3 className="mb-5">React Weather App</h3>
-          <p className="mb-5 text-muted">
+        <div className="project-description">
+          <h3 className="mb-3">React Weather App</h3>
+          <p className="text-muted">
             The goal of this project was to recreate the HTML & CSS Weather App
             in React. This was my first time working with React, so it was full
             of learning curves. The site includes all of the same components as

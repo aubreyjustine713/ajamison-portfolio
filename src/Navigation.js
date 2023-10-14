@@ -4,7 +4,7 @@ import "./Navigation.css";
 export default function Navigation() {
   return (
     <div className="Navigation">
-      <nav className="navbar navbar-expand-md navbar-light">
+      <nav className="navbar navbar-expand-md navbar-dark">
         <button
           className="navbar-toggler"
           type="button"
